@@ -3,14 +3,14 @@ const router = require('koa-router');
 const RQ = require("request");
 const app = new koa();
 const RT = new router();
-const AuthKey = "";
+const AuthKey = "<api-key>";
 const PointsArr = ['competitions', 'matches', 'player','team'];
 
 function FetchData(E_P, Req_Id='0'){
     
     if (Req_Id > 0){ RequestedId = "/"+Req_Id; } else { RequestedId = ""; }
     
-    Url = "http://api.football-api.com/2.0/"+E_P+RequestedId+"?Authorization="+AuthKey;
+    Url = "http://<api-domain>/2.0/"+E_P+RequestedId+"?Authorization="+AuthKey;
 
     RQ.get({
         "headers": { "content-type": "application/json" },
