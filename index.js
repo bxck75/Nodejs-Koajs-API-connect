@@ -3,7 +3,7 @@ const router = require('koa-router');
 const RQ = require("request");
 const app = new koa();
 const RT = new router();
-const AuthKey = "565ec012251f932ea40000012c1747561cc64bd658469020a6584eb3";
+const AuthKey = "";
 const PointsArr = ['competitions', 'matches', 'player','team'];
 
 function FetchData(E_P, Req_Id='0'){
