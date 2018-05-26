@@ -4,7 +4,7 @@
 quick start
 ===========
 
-**Checkout node-koajs-rest-skeleton:**
+**Checkout  Nodejs-Koajs-API-connect:**
 
 ```sh
 $ https://github.com/bxck75/Nodejs-Koajs-API-connect.git
